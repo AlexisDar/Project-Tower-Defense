@@ -1049,6 +1049,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1953802945441898308, guid: 70e4ba79d3368f84eab8025c0e25a8aa, type: 3}
+      propertyPath: _waveMax
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953802945441898308, guid: 70e4ba79d3368f84eab8025c0e25a8aa, type: 3}
+      propertyPath: _cooldownTimer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953802945441898308, guid: 70e4ba79d3368f84eab8025c0e25a8aa, type: 3}
+      propertyPath: _globalTimerPublic
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953802945441898308, guid: 70e4ba79d3368f84eab8025c0e25a8aa, type: 3}
+      propertyPath: _reductionCooldownTimer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1953802945441898310, guid: 70e4ba79d3368f84eab8025c0e25a8aa, type: 3}
       propertyPath: m_Name
       value: Spawner
