@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_001_Scenes/IN GAME menu.unity
     guid: b4f4c551014c0f640bec12fe64b4f764
+  - enabled: 1
+    path: Assets/_001_Scenes/Menu-Hugo.unity
+    guid: 9cff0a33afff2c44e8fd8d147f0b717f
   m_configObjects: {}
