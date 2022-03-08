@@ -4,17 +4,6 @@ using UnityEngine;
 
 public class PointDirection : MonoBehaviour
 {
+    // Créer un groupe où stocker les points de direction
     public Transform[] pointsDirection;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

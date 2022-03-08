@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 439955723}
   m_Layer: 0
   m_Name: Points de Direction
-  m_TagString: Direction
+  m_TagString: PointsDirection
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 892100334}
   m_Layer: 0
   m_Name: PointDirection(2)
-  m_TagString: Direction
+  m_TagString: PointsDirection
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -800,7 +800,7 @@ GameObject:
   - component: {fileID: 1412169262}
   m_Layer: 0
   m_Name: PointDirection(1)
-  m_TagString: Direction
+  m_TagString: PointsDirection
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -913,7 +913,7 @@ GameObject:
   - component: {fileID: 1660205542}
   m_Layer: 0
   m_Name: PointDirection(3)
-  m_TagString: Direction
+  m_TagString: PointsDirection
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
