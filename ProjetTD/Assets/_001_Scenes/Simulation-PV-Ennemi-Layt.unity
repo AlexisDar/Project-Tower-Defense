@@ -187,6 +187,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7679696157344353444, guid: 71ed46a60dc5ce34a8f09dacc92e5e8c, type: 3}
+      propertyPath: MaxPvEnnemi
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -7679696157344353444, guid: 71ed46a60dc5ce34a8f09dacc92e5e8c, type: 3}
+      propertyPath: CurrentPvEnnemi
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -7679696157344353444, guid: 71ed46a60dc5ce34a8f09dacc92e5e8c, type: 3}
+      propertyPath: healthBarLength
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6341241959685256680, guid: 71ed46a60dc5ce34a8f09dacc92e5e8c, type: 3}
       propertyPath: m_RootOrder
       value: 1

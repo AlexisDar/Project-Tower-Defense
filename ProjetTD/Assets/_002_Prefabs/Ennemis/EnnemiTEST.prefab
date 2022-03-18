@@ -138,7 +138,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf3a3f2f8d47bf44828cafce44b035f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pvEnnemi: 100
+  MaxPvEnnemi: 100
+  CurrentPvEnnemi: 100
+  targetPos: {x: 0, y: 0}
+  healthBarLength: 0
 --- !u!50 &8515876266814956660
 Rigidbody2D:
   serializedVersion: 4

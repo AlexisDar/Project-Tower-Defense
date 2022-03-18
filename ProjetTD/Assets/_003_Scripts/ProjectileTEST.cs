@@ -25,7 +25,7 @@ public class ProjectileTEST : MonoBehaviour
         if (collision.gameObject.CompareTag("Ennemis"))
         {
             hpEnnemi = collision.gameObject.GetComponent<HPEnnemi>();
-            hpEnnemi.pvEnnemi -= projectileDamage;
+            hpEnnemi.CurrentPvEnnemi -= projectileDamage;
             Destroy(gameObject);
         }
 
