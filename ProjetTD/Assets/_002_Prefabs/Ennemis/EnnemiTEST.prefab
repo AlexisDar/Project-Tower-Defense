@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3770311443865748614}
   - component: {fileID: 2019449170452862991}
   - component: {fileID: 1720096354932666767}
+  - component: {fileID: 5438609037321328193}
   - component: {fileID: -7679696157344353444}
   - component: {fileID: 8515876266814956660}
   m_Layer: 0
@@ -126,6 +127,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
+--- !u!114 &5438609037321328193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784440401079144275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d62b1df16d5034fbd75a6af7b1246c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &-7679696157344353444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,7 +151,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf3a3f2f8d47bf44828cafce44b035f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pvEnnemi: 100
+  MaxPvEnnemi: 100
+  CurrentPvEnnemi: 100
+  targetPos: {x: 0, y: 0}
+  healthBarLength: 0
 --- !u!50 &8515876266814956660
 Rigidbody2D:
   serializedVersion: 4

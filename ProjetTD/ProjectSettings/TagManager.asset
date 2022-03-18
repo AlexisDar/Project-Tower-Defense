@@ -9,6 +9,7 @@ TagManager:
   - Ennemis
   - HeadCook
   - Projectiles
+  - Projectie
   layers:
   - Default
   - TransparentFX
@@ -43,6 +44,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Couche 1
+    uniqueID: 327519799
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -15,7 +15,11 @@ public class HCLifePoints : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+     if (HcCurrentLife <= 0)
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
