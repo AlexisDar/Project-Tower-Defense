@@ -6,6 +6,7 @@ public class HPEnnemi : MonoBehaviour
 {
     public int pvEnnemi;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,19 +16,10 @@ public class HPEnnemi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Projectiles"))
+        if (pvEnnemi <= 0)
         {
-            ProjectileTEST projectileTEST = GetComponent<ProjectileTEST>();
-            int damageDealing = projectileTEST.projectileDamage;
-
-            pvEnnemi = pvEnnemi - damageDealing; 
+            Destroy(gameObject);
         }
-
-
     }
+
 }

@@ -12,7 +12,7 @@ public class EnnemiMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Assoier la variable PDirect aux points de direction
+        // Associer la variable PDirect aux points de direction
         PDirec = GameObject.FindGameObjectWithTag("PointsDirection").GetComponent<PointDirection>();
 
     }
