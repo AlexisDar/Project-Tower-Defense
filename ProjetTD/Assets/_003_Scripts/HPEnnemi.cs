@@ -18,6 +18,7 @@ public class HPEnnemi : MonoBehaviour
     {
         if (pvEnnemi <= 0)
         {
+            CashScore.moneyValue += 10;
             Destroy(gameObject);
         }
     }
