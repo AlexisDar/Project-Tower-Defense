@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
 
     public GameObject settingsWindow;
 
+    public GameObject LevelMenu;
+
     public void StartLevel1()
     {
         SceneManager.LoadScene(levelToLoad);
@@ -34,9 +36,15 @@ public class MainMenu : MonoBehaviour
         settingsWindow.SetActive(false);
     }
 
+    public void Level()
+    {
+        LevelMenu.SetActive(true);
+    }
 
-
-
+    public void CloseLevel()
+    {
+        LevelMenu.SetActive(false);
+    }
 
     public void Quit()
     {
