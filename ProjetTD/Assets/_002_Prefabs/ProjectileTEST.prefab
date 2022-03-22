@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  projectileDamage: 100
+  projectileDamage: 20
 --- !u!70 &5088470620886495558
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
