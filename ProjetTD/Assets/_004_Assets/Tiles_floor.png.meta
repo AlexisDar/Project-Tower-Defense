@@ -4,10 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2802427511048282425
-    second: Tiles_Floor_Neutral
+    second: Tiles_floor_base
   - first:
       213: -3044432242553232822
-    second: Tiles_Floor_Turret
+    second: Tiles_floor_turret
+  - first:
+      213: -468464481291637855
+    second: Tiles_floor_only_turret
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,15 +100,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiles_Floor_Neutral
+      name: Tiles_floor_base
       rect:
         serializedVersion: 2
-        x: 224
-        y: 408
+        x: 64
+        y: 392
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -118,15 +121,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Floor_Turret
+      name: Tiles_floor_turret
       rect:
         serializedVersion: 2
-        x: 560
-        y: 408
+        x: 400
+        y: 392
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,6 +137,27 @@ TextureImporter:
       bones: []
       spriteID: a426ed7610100c5d0800000000000000
       internalID: -3044432242553232822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_floor_only_turret
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 410
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab69ba490eaf79f0800000000000000
+      internalID: -468464481291637855
       vertices: []
       indices: 
       edges: []
