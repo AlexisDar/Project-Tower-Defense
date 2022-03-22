@@ -7,7 +7,6 @@ public class Tourelle : MonoBehaviour
     public GameObject projectile;
     private EnnemiMove target;
     private Queue<EnnemiMove> ennemis = new Queue<EnnemiMove>();
-    private bool hasTarget;
 
     // Start is called before the first frame update
     void Start()
@@ -18,11 +17,8 @@ public class Tourelle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Attack();
         Debug.Log(target);
-        while (hasTarget)
-        {
-            Debug.Log("CIBLE REPEREE");
-        }
     }
 
     private void Attack()
@@ -38,7 +34,6 @@ public class Tourelle : MonoBehaviour
         if (other.tag == "Ennemis")
         {
             ennemis.Enqueue(other.GetComponent<EnnemiMove>());
-            hasTarget = true;
         }
 
     }
@@ -47,7 +42,6 @@ public class Tourelle : MonoBehaviour
     {
         if (other.tag == "Ennemis")
         {
-            hasTarget = false;
             target = null;
         }
     }
