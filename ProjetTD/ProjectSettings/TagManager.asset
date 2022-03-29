@@ -6,10 +6,10 @@ TagManager:
   tags:
   - Turret
   - PointsDirection
-  - Ennemis
   - HeadCook
   - Projectiles
   - Projectie
+  - Enemy
   layers:
   - Default
   - TransparentFX
