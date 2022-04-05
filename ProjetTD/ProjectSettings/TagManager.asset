@@ -10,6 +10,8 @@ TagManager:
   - Projectiles
   - Projectie
   - Enemy
+  - Ennemis
+  - Bullet
   layers:
   - Default
   - TransparentFX

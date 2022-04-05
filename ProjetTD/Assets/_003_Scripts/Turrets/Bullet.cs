@@ -6,8 +6,45 @@ public class Bullet : MonoBehaviour
 {
     private Transform target;
 
-    void Seek(Transform _target)
+    public int damage = 10;
+
+    public float speed = 70f;
+
+    public void Seek(Transform _target)
     {
         target = _target;
+    }
+
+
+
+
+
+
+    private void Update()
+    {
+        if (target == null)
+        {
+            Destroy(gameObject);
+        }
+
+        
+
+        Vector3 dir = target.position - transform.position;
+        float distanceThisFrame = speed * Time.deltaTime;
+
+        if (dir.magnitude <= distanceThisFrame)
+        {
+            HitTarget();
+        }
+
+        transform.Translate(dir.normalized * distanceThisFrame, Space.World);
+
+    }
+
+
+
+    void HitTarget()
+    {
+        Destroy(gameObject);
     }
 }

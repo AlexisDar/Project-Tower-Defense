@@ -49,5 +49,5 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   draggableObjects:
-  - {fileID: 0}
+  - {fileID: 2535592440926276009, guid: e6bd9ad7a5830c74391f4d4863754720, type: 3}
   snapRange: 0.5
