@@ -50,7 +50,7 @@ public class Spawner : MonoBehaviour
                 }
 
                 // Faire apparaître un ennemi à une position précise
-                Vector2 spawnPosition = new Vector2(-9, 2);
+                Vector2 spawnPosition = this.gameObject.transform.position;
                 GameObject spawned = Instantiate(_ennemiPrefab[randomEnnemi], spawnPosition, Quaternion.Euler(transform.up));
                 _timer = _cooldownTimer;
 
