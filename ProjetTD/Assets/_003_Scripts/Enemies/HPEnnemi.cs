@@ -20,7 +20,7 @@ public class HPEnnemi : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Debug.Log("j'ai");
-            Bullet bullet = collision.gameObject.GetComponent<Bullet>();
+            Bullet bullet = collision.GetComponent<Bullet>();
             CurrentPvEnnemi -= bullet.damage;
 
         }
