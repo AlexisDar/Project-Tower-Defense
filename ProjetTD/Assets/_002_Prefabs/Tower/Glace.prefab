@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 9076257139393214216}
   - component: {fileID: 9076257139393214218}
   - component: {fileID: 9076257139393214261}
-  - component: {fileID: 3702126429866571806}
   - component: {fileID: -9045801266331459182}
   m_Layer: 0
   m_Name: Glace
@@ -156,27 +155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273619e572631c849b8cd2b00ccf59f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &3702126429866571806
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9076257139393214217}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &-9045801266331459182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,6 +170,6 @@ MonoBehaviour:
   range: 3
   enemyTag: Enemy
   partToRotate: {fileID: 5316043921904425365}
-  fireRate: 1
-  bulletPrefab: {fileID: 1949971890538444550, guid: 4c0d2f9ed336d01489321f432011e39f, type: 3}
+  fireRate: 100
+  bulletPrefab: {fileID: 1949971890538444550, guid: 5a6801e8826629f4cad92c1931b4218c, type: 3}
   firePoint: {fileID: 5316043921904425365}
