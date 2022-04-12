@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CashScore : MonoBehaviour
 {
 
-    public static int moneyValue =0 ;
+    public static int moneyValue = 0 ;
     Text money; 
     
     void Start()
@@ -19,4 +19,5 @@ public class CashScore : MonoBehaviour
     {
         money.text = "Money:" + moneyValue;
     }
+
 }
