@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - Ennemis
   - Bullet
+  - SnapPoint
   layers:
   - Default
   - TransparentFX
