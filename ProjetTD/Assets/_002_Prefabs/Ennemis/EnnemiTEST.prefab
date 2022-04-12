@@ -153,6 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxPvEnnemi: 100
   CurrentPvEnnemi: 100
+  CashEarned: 20
 --- !u!50 &8515876266814956660
 Rigidbody2D:
   serializedVersion: 4
