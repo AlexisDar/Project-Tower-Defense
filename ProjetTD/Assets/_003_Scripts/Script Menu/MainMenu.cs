@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(levelToLoad1);
 
     }
-
+    
     public void StartLevel2()
     {
         SceneManager.LoadScene(levelToLoad2);
