@@ -32,6 +32,7 @@ public class MainMenu : MonoBehaviour
     public void Settings()
     {
         settingsWindow.SetActive(true);
+        LevelMenu.SetActive(false);
     }
 
 
@@ -43,6 +44,7 @@ public class MainMenu : MonoBehaviour
     public void Level()
     {
         LevelMenu.SetActive(true);
+        settingsWindow.SetActive(false);
     }
 
     public void CloseLevel()
