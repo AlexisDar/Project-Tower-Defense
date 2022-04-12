@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TurretAlex : MonoBehaviour
 {
-    public Transform target;
+    private Transform target;
     public float range = 3f;
 
     public string enemyTag = "Enemy";
@@ -68,7 +68,7 @@ public class TurretAlex : MonoBehaviour
         Vector3 dir = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime* turnSpeed).eulerAngles;
-        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+        partToRotate.rotation = Quaternion.Euler(0f, 0f, rotation.z);
 
         if (fireCountDown <= 0)
         {
@@ -81,12 +81,13 @@ public class TurretAlex : MonoBehaviour
 
     void Shoot()
     {
+        Debug.Log("tir effectué");
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
 
         if (bullet != null)
         {
-
+            bullet.Seek(target);
         }
     }
 

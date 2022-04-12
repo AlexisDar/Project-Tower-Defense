@@ -15,6 +15,18 @@ public class HPEnnemi : MonoBehaviour
         healthBarLength = Screen.width / 6;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Debug.Log("j'ai");
+            Bullet bullet = collision.GetComponent<Bullet>();
+            CurrentPvEnnemi -= bullet.damage;
+
+        }
+    }
+
+
     // Update is called once per frame
     void Update()
     {
