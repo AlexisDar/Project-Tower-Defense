@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2535592440926275988}
   - component: {fileID: 2535592440926275990}
   - component: {fileID: 2535592440926276009}
-  - component: {fileID: 7900989935358379650}
+  - component: {fileID: 2755351206211343202}
   m_Layer: 0
-  m_Name: Four
+  m_Name: TowerTest
   m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 6cc12101d12d7134d91df9f5836e4955, type: 3}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.060303, y: 1.5804225}
+    oldSize: {x: 1.0603031, y: 1.6302557}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -125,27 +125,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273619e572631c849b8cd2b00ccf59f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &7900989935358379650
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &2755351206211343202
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2535592440926275989}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c59f365c7eb7f14f85acb6d5fc1c467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 3
+  enemyTag: Enemy
+  partToRotate: {fileID: 1658184393661736713}
+  fireRate: 1.5
+  bulletPrefab: {fileID: 1949971890538444550, guid: 4c0d2f9ed336d01489321f432011e39f, type: 3}
+  firePoint: {fileID: 1658184393661736713}
 --- !u!1 &8550421370104661007
 GameObject:
   m_ObjectHideFlags: 0

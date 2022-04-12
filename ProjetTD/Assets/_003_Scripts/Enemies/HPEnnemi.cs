@@ -8,6 +8,7 @@ public class HPEnnemi : MonoBehaviour
     public int CurrentPvEnnemi;
     private Vector2 targetPos;
     private float healthBarLength;
+    public int CashEarned;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +34,7 @@ public class HPEnnemi : MonoBehaviour
         // Si les pv de l'ennemi tombent à 0, gagne de l'argent et le détruit
         if (CurrentPvEnnemi <= 0)
         {
-            CashScore.moneyValue += 10;
+            CashScore.moneyValue += CashEarned;
             Destroy(gameObject);
         }
     }
